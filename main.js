@@ -12,9 +12,9 @@ app.listen(3000, 'localhost', function () {
 
 var connection = mysql.createConnection({
     host: "localhost",
-    user: "root",
-    database: "example2",
-    password: "1234",
+    user: "",
+    database: "",
+    password: "",
     port: 3306,
     multipleStatements: true
 });
